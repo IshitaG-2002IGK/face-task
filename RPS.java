@@ -9,8 +9,7 @@ import java.util.HashMap; // Key index operations like updation, deletion etc is
 // Computer player name: 'Robo'
 // scoreBoard : Maintaining scores
 // Tie : Both choose the same option
-
-
+// Scores get updated every game (till we say 'y' to continue), until the player decides to quit('n') the game.
 
 
 // (if you're trying this on online compiler, this might make it easier)
