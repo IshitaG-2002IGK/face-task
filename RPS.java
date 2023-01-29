@@ -89,7 +89,7 @@ class RPS
 
       if (winner.equals(playName)) 
       {
-        scoreBoard.put(playName, scoreBoard.get(playName) + 1);
+        scoreBoard.put(playName, scoreBoard.get(playName) + 1); //increments every game - no negative's included
       }
 
       System.out.println("\nHigh Scores:");
