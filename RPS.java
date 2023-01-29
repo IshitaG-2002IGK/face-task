@@ -7,7 +7,9 @@ import java.util.HashMap; // Key index operations like updation, deletion etc is
 // playChoice : The player's choice (Rock, paper or Scissors)
 // compChoice : The computer's automated choice (Rock, paper or Scissors)
 // Computer player name: 'Robo'
+// scoreBoard : Maintaining scores
 // Tie : Both choose the same option
+
 
 
 
@@ -93,7 +95,7 @@ class RPS
 
       System.out.println("\nHigh Scores:");
 
-      for (String name : scoreBoard.keySet()) 
+      for (String name : scoreBoard.keySet()) // stores key elements
       {
         System.out.println(name + ": " + scoreBoard.get(name));
       }
