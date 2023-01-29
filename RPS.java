@@ -1,5 +1,5 @@
+import java.util.*; 
 import java.util.Scanner;
-// import java.util.*; 
 import java.util.HashMap; // Key index operations like updation, deletion etc is easier!
 
 // GAME INDEX //
